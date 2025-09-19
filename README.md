@@ -31,6 +31,3 @@ Install dependencies:
 Start Strapi server:
   npm run develop
 
-bash
-Copy code
-npm run develop
