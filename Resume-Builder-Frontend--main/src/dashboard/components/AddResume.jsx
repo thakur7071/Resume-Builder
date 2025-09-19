@@ -1,5 +1,5 @@
 import { Loader2, PlusSquare } from 'lucide-react'
-import React, { useState } from 'react'
+import { useState } from 'react'
 
 import {
     Dialog,
@@ -69,7 +69,7 @@ const onCreate=async()=>{
     <DialogHeader>
       <DialogTitle>Create New Resume</DialogTitle>
       <DialogDescription>
-        <p>Add title for your new resume</p>
+  <span>Add title for your new resume</span>
        <Input className="my-2"
         placeholder="Ex. Full Stack Resume"
         onChange={(e)=>setResumeTitle(e.target.value)}

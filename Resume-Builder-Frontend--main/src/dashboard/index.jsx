@@ -8,9 +8,11 @@ function Dashboard() {
   const { user } = useUser();
   const [resumeList, setResumeList] = useState([]);
 
+  const hasFetched = React.useRef(false);
   useEffect(() => {
-    if (user) {
+    if (user && !hasFetched.current) {
       GetResumesList();
+      hasFetched.current = true;
     }
   }, [user]);
 
