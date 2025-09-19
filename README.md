@@ -19,7 +19,7 @@ Install dependencies:
   npm install
 
 Start the project:
-  npm start
+  npm run dev
 
 ### Admin / Backend
 Navigate to the admin folder:
