@@ -1,8 +1,15 @@
 {
   "compilerOptions": {
-    "moduleResolution": "nodenext",
-    "target": "ES2021",
-    "checkJs": true,
-    "allowJs": true
-  }
+    "target": "ES2021",          // Latest JS features
+    "module": "ESNext",          // Modern JS modules
+    "moduleResolution": "Node",  // Node.js style resolution
+    "jsx": "react-jsx",          // React JSX support
+    "checkJs": true,             // JS files type check
+    "allowJs": true,             // Include JS files
+    "baseUrl": "src",            // Base folder for relative imports
+    "paths": {
+      "@/*": ["*"]               // Shortcut for imports from src
+    }
+  },
+  "include": ["src"]             // Only include src folder
 }
