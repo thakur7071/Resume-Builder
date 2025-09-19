@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_certificates_certificates",
+  "info": {
+    "displayName": "Certificates",
+    "icon": "file"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}
