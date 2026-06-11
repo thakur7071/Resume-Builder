@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "ignoreDeprecations": "6.0",
     "target": "ES2021",          // Latest JS features
     "module": "ESNext",          // Modern JS modules
     "moduleResolution": "Node",  // Node.js style resolution
